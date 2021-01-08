@@ -36,4 +36,18 @@ void loop()
     u8g2.sendBuffer();          // transfer internal memory to the display
     delay(1000);
   }
+  
+  TCA9548A(1); // tell the TCA9548A we want to use I2C bus number zero (to talk to the OLED)
+
+  // use the OLED as normal
+  for (int a = 15; a >= 0; --a)
+  {
+    u8g2.clearBuffer();          // clear the internal memory
+    u8g2.setFont(u8g2_font_inb24_mr );  // choose a suitable font
+    u8g2.setCursor(0, 24);
+    u8g2.print(a);
+    a = a - 1;
+    u8g2.sendBuffer();          // transfer internal memory to the display
+    delay(1000);
+  }
 }
