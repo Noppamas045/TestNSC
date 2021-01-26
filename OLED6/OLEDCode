@@ -1,0 +1,89 @@
+//THE DIMENSION
+//OLED I2C0
+void displayoled0(){
+  display0.clearDisplay();
+  display0.setCursor(0, 15); 
+  display0.setTextColor(1,0);
+  display0.setTextSize(2);
+  display0.print("THE");
+  display0.setCursor(0, 40);
+  display0.print("DIMENSTION");
+}
+//OLED I2C1
+void displayoled1(){
+  display1.clearDisplay();
+  display1.setCursor(25,19);
+  display1.setTextColor(1);
+  display1.setTextSize(1);
+  display1.print("THE DIMENSION");
+}
+//OLED I2C2
+void displayoled2(){
+  display2.clearDisplay();
+  display2.setCursor(25, 19);
+  display2.setTextColor(1);
+  display2.setTextSize(1);
+  display2.print("THE DIMENSION");
+}
+ //OLED I2C3
+void displayoled3(){
+  display3.clearDisplay();
+  display3.setCursor(25,19);
+  display3.setTextColor(1);
+  display3.setTextSize(1);
+  display3.print("THE DIMENSION");
+}
+//OLED I2C4
+void displayoled4()
+{
+  display4.clearDisplay();
+  display4.setCursor(25, 19);
+  display4.setTextColor(1);
+  display4.setTextSize(1);
+  display4.print("THE DIMENSION");
+}
+
+//START
+//OLED I2C0
+void displayoled0(){
+  display0.clearDisplay();
+  display0.setCursor(35, 26); 
+  display0.setTextColor(1,0);
+  display0.setTextSize(2);
+  display0.print("START");
+
+}
+//OLED I2C1
+void displayoled1(){
+  display1.clearDisplay();
+  display1.setCursor(27,11);
+  display1.setTextColor(0,1);
+  display1.setTextSize(2);
+  display1.print(" START ");
+}
+//OLED I2C2
+void displayoled2(){
+
+  display2.clearDisplay();
+  display2.setCursor(27,11);
+  display2.setTextColor(0,1);
+  display2.setTextSize(2);
+  display2.print(" START ");
+}
+ //OLED I2C3
+void displayoled3(){
+  display3.clearDisplay();
+  display3.setCursor(27,11);
+  display3.setTextColor(0,1);
+  display3.setTextSize(2);
+  display3.print(" START ");
+}
+//OLED I2C4
+void displayoled4(){
+  display4.clearDisplay();
+  display4.setCursor(27,11);
+  display4.setTextColor(0,1);
+  display4.setTextSize(2);
+  display4.print(" START ");
+}
+
