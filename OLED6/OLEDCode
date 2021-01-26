@@ -86,4 +86,46 @@ void displayoled4(){
   display4.setTextSize(2);
   display4.print(" START ");
 }
+//GAME OVER
+//OLED I2C1
+void displayoled1(){
+  display1.clearDisplay();
+  display1.setCursor(35,19);
+  display1.setTextColor(1);
+  display1.setTextSize(1);
+  display1.print("GAME OVER");
+}
+//OLED I2C2
+void displayoled2(){
 
+  display2.clearDisplay();
+  display2.setCursor(35,19);
+  display2.setTextColor(1);
+  display2.setTextSize(1);
+  display2.print("GAME OVER");
+}
+ //OLED I2C3
+void displayoled3(){
+  display3.clearDisplay();
+  display3.setCursor(35,19);
+  display3.setTextColor(1);
+  display3.setTextSize(1);
+  display3.print("GAME OVER");
+}
+//OLED I2C4
+void displayoled4(){
+  display4.clearDisplay();
+  display4.setCursor(35,19);
+  display4.setTextColor(1);
+  display4.setTextSize(1);
+  display4.print("GAME OVER");
+}
+//WIN
+//OLED I2C1
+void displayoled1(){
+  display1.clearDisplay();
+  display1.setCursor(35,10);
+  display1.setTextColor(1);
+  display1.setTextSize(3);
+  display1.print("WIN");
+}
